@@ -38,20 +38,29 @@
 
         main {
             background-color: #f5fff0;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        div#container {
+            background-color: #f5fff0;
         }
 
         .imgprincipais {
-            width: 560px;
+            display: block;
+            width: 100%;
             height: auto;
             padding: 10px;
+            margin: 0 auto;
 
         }
 
         #caixa10xperts {
             background-color: #5fad56;
             text-align: center;
-            padding: 10px;
-            margin: 10px;
+            margin: 10px 0px 20px 10px;
+            padding-bottom: 10px;
+            width: 100%;
         }
 
         #caixa10xperts > strong {
@@ -96,6 +105,7 @@
             display: flex;
             justify-content: center;
             padding: 20px;
+            width: 100%;
         }
 
         ol {
@@ -106,79 +116,94 @@
             padding: 10px 0px 60px 60px;
         }
 
+        div#botao {
+            background-color: #2E8B57;
+            border-radius: 28px;
+            padding: 24px;
+            margin: 40px auto;
+            text-align: center;
+            width: 400px;
+            
+        }
+
+        div#botao > a {
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 100%;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
     </style>
 </head>
 <body>
-    <main>
-        <img class="imgprincipais" src="imagens/10sports-apresenta.jpeg" alt="">
-
-        <div id="caixa10xperts">
-            <strong>10xperts!</strong> <br>
-            <strong id="p1">Multiplicando seu sucesso!</strong>
-        </div>
-
-        <p>
-            Um programa de aceleração e mentoria de carreira e negócios em saúde e bem-estar, com um timaço de profissionais de reconhecimento internacional onde, juntos, iremos mergulhar no seu projeto, avaliar seu momento atual, utilizar as melhores ferramentas e estratégias de mercado e criar, junto com você, estratégias, táticas e operação para potencializar seus resultados e multiplicar seu sucesso!
-        </p>
-
-        <ul>
-            <li>x 10 semanas</li>
-            <li>x 10 temas</li>
-            <li>x Aulas de até 3 horas!</li>
-            <li>x Tudo ao vivo</li>
-            <li>x Avaliação individual</li>
-            <li>x Encontro com grandes empresários</li>
-            <li>x Imersão presencial no evento</li>
-            <strong id="p2">"Arnold Sports Festival"</strong>
-        </ul>
-
-        <div id="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ogeaNAzzO_I?si=lGJJgr5_5Hl2NkLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-
-        <img class="imgprincipais" src="imagens/10sports-capitaes.png" alt="">
-
-        <p>
-            O programa 10xperts consiste em 10 semanas intensivas com aulas semanais de imersão em diversos temas que fazem parte da estratégia macro de um negócio:
-        </p>
-
-        <ol>
-            <li>Diagnóstico de situação</li>
-            <li>Branding, Proposta de Valor</li>
-            <li>Finanças pessoais e profissionais</li>
-            <li>Estratégia, Tática e Operação</li>
-            <li>Viabilidade de negócios e projetos</li>
-            <li>Marketing, Mídias Digitais</li>
-            <li>Inteligência Artificial, Processos</li>
-            <li>Cultura, Pessoas, Sócios</li>
-            <li>Modelagem de negócios, Escalabilidade</li>
-            <li>Investimentos, Captação de Recursos</li>
-        </ol>
-
+    <div id="container">
+        <main>
+            <img class="imgprincipais" src="imagens/10sports-apresenta.jpeg" alt="">
+            <div id="caixa10xperts">
+                <strong>10xperts!</strong> <br>
+                <strong id="p1">Multiplicando seu sucesso!</strong>
+            </div>
+            <p>
+                Um programa de aceleração e mentoria de carreira e negócios em saúde e bem-estar, com um timaço de profissionais de reconhecimento internacional onde, juntos, iremos mergulhar no seu projeto, avaliar seu momento atual, utilizar as melhores ferramentas e estratégias de mercado e criar, junto com você, estratégias, táticas e operação para potencializar seus resultados e multiplicar seu sucesso!
+            </p>
+            <ul>
+                <li>x 10 semanas</li>
+                <li>x 10 temas</li>
+                <li>x Aulas de até 3 horas!</li>
+                <li>x Tudo ao vivo</li>
+                <li>x Avaliação individual</li>
+                <li>x Encontro com grandes empresários</li>
+                <li>x Imersão presencial no evento</li>
+                <strong id="p2">"Arnold Sports Festival"</strong>
+            </ul>
+            <div id="youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ogeaNAzzO_I?si=lGJJgr5_5Hl2NkLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <img class="imgprincipais" src="imagens/10sports-capitaes.png" alt="">
+            <p>
+                O programa 10xperts consiste em 10 semanas intensivas com aulas semanais de imersão em diversos temas que fazem parte da estratégia macro de um negócio:
+            </p>
+            <ol>
+                <li>Diagnóstico de situação</li>
+                <li>Branding, Proposta de Valor</li>
+                <li>Finanças pessoais e profissionais</li>
+                <li>Estratégia, Tática e Operação</li>
+                <li>Viabilidade de negócios e projetos</li>
+                <li>Marketing, Mídias Digitais</li>
+                <li>Inteligência Artificial, Processos</li>
+                <li>Cultura, Pessoas, Sócios</li>
+                <li>Modelagem de negócios, Escalabilidade</li>
+                <li>Investimentos, Captação de Recursos</li>
+            </ol>
         
-        <p>
-            <strong>
-                NÃO SE TRATA DE AULAS  E PALESTRAS GRAVADAS!
-                SERÃO HORAS DE ATIVIDADES PRÁTICAS E TEÓRICAS, AO VIVO!
-                PLANTÕES PARA DÚVIDAS!
-                DEBATES E APLICAÇÃO DE FERRAMENTAS, PLANILHAS, DESIGN E OUTROS INSTRUMENTOS DE NEGÓCIOS!
-            </strong>
-        </p>
-
-        <p style="padding: 40px 0px 0px 20px">
-            <strong>
-                Os projetos escolhidos terão acesso a: <br>
-                Mentoria ao vivo; <br>
-                Aulas práticas com o time de professores 10xperts; <br>
-                Interação com empresários, atletas e cases de sucesso; <br>
-                Grupo exclusivo para debates; <br>
-                Pasta online de materiais e ferramentas; <br>
-                Experiência exclusiva em evento presencial; <br>
-                E muito mais.
-            </strong>
-        </p>
+            <p>
+                <strong>
+                    NÃO SE TRATA DE AULAS  E PALESTRAS GRAVADAS!
+                    SERÃO HORAS DE ATIVIDADES PRÁTICAS E TEÓRICAS, AO VIVO!
+                    PLANTÕES PARA DÚVIDAS!
+                    DEBATES E APLICAÇÃO DE FERRAMENTAS, PLANILHAS, DESIGN E OUTROS INSTRUMENTOS DE NEGÓCIOS!
+                </strong>
+            </p>
+            <p style="padding: 40px 0px 0px 20px">
+                <strong>
+                    Os projetos escolhidos terão acesso a: <br>
+                    Mentoria ao vivo; <br>
+                    Aulas práticas com o time de professores 10xperts; <br>
+                    Interação com empresários, atletas e cases de sucesso; <br>
+                    Grupo exclusivo para debates; <br>
+                    Pasta online de materiais e ferramentas; <br>
+                    Experiência exclusiva em evento presencial; <br>
+                    E muito mais.
+                </strong>
+            </p>
         
+            <div id="botao">
+                <a href="#">CLIQUE AQUI E CADASTRE O SEU PROJETO!</a>
+            </div>
         
-    </main>
+        </main>
+    </div>
 </body>
 </html>
